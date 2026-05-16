@@ -1,14 +1,13 @@
-## You (Might) Don't Need jQuery
+## You Don't Need jQuery
 
 Frontend environments evolve rapidly nowadays and modern browsers have already implemented a great deal of DOM/BOM APIs which are good enough for production use. We don't have to learn jQuery from scratch for DOM manipulation or event handling. In the meantime, thanks to the spread of frontend libraries such as React, Angular and Vue, manipulating the DOM directly becomes anti-pattern, so that jQuery usage has never been less important. This project summarizes most of the alternatives in native Javascript implementation to jQuery methods, with IE 10+ support.
 
-ℹ️ Notice: 
+Notice: 
 1. jQuery is still a great library and has many valid use cases. Don’t migrate away if you don’t want to!
 2. The alternatives are not completely equivalent in all scenarios, and it is recommended that you test it before using it.
 
 ## Table of Contents
 
-1. [Translations](#translations)
 1. [Query Selector](#query-selector)
 1. [CSS & Style](#css--style)
 1. [DOM Manipulation](#dom-manipulation)
@@ -18,25 +17,6 @@ Frontend environments evolve rapidly nowadays and modern browsers have already i
 1. [Promises](#promises)
 1. [Animation](#animation)
 1. [Alternatives](#alternatives)
-1. [Browser Support](#browser-support)
-
-## Translations
-
-* [한국어](./README.ko-KR.md)
-* [正體中文](./README.zh-TW.md)
-* [简体中文](./README.zh-CN.md)
-* [Bahasa Melayu](./README-my.md)
-* [Bahasa Indonesia](./README-id.md)
-* [Português(PT-BR)](./README.pt-BR.md)
-* [Tiếng Việt Nam](./README-vi.md)
-* [Español](./README-es.md)
-* [Русский](./README-ru.md)
-* [Кыргызча](./README-kg.md)
-* [Türkçe](./README-tr.md)
-* [Italiano](./README-it.md)
-* [Français](./README-fr.md)
-* [日本語](./README-ja.md)
-* [Polski](./README-pl.md)
 
 ## Query Selector
 
@@ -1496,12 +1476,6 @@ A promise represents the eventual result of an asynchronous operation. jQuery ha
 
 * [You Might Not Need jQuery](http://youmightnotneedjquery.com/) - Examples of how to do common event, element, ajax etc with plain javascript.
 * [npm-dom](http://github.com/npm-dom) and [webmodules](http://github.com/webmodules) - Organizations you can find individual DOM modules on NPM
-
-## Browser Support
-
-![Chrome][chrome-image] | ![Firefox][firefox-image] | ![IE][ie-image] | ![Opera][opera-image] | ![Safari][safari-image]
---- | --- | --- | --- | --- |
-Latest ✔ | Latest ✔ | 10+ ✔ | Latest ✔ | 6.1+ ✔ |
 
 # License
 
